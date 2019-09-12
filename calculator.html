@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calulator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=devise-width initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container1">
+    <div class="result-screen">
+      <p id="result"></p>
+    </div>
+    <div class="equation-screen">
+      <p id="equation"></p>
+    </div>
+      <div class="btn-group">
+      <button type="button"  onclick="numberfun(this)" value="7" >7</button>
+      <button type="button"  onclick="numberfun(this)" value="8" >8</button>
+      <button type="button"  onclick="numberfun(this)" value="9" >9</button>
+      <button type="button"  onclick="numberfun(this)"value="/">/</button>
+      </div>
+    <div class="btn-group">
+      <button type="button" value ="4" onclick="numberfun(this)">4</button>
+      <button type="button" value ="5" onclick="numberfun(this)">5</button>
+      <button type="button" value ="6" onclick="numberfun(this)">6</button>
+      <button type="nutton" value ="*" onclick="numberfun(this)">x</button>
+    </div>
+        <div class="btn-group">
+          <button type="button" value ="1" onclick="numberfun(this)">1</button>
+          <button type="button" value ="2" onclick="numberfun(this)">2</button>
+          <button type="button" value ="3" onclick="numberfun(this)">3</button>
+          <button type="button" value ="-" onclick="numberfun(this)">-</button>
+        </div>
+
+        <div class="btn-group">
+          <button type="button" value ="0" onclick="numberfun(this)">0</button>
+          <button type="button" value ="." onclick="numberfun(this)">.</button>
+          <button type="button" onclick="backspacefun()">del</button>
+          <button type="button" value ="+" onclick="numberfun(this)">+</button>
+        </div>
+
+        <div class="btn-group">
+          <button type="button" onclick="clearfun(this)" >AC</button>
+          <button type="button" onclick="numberfun(this)" value ="%">%</button>
+          <button type="button" onclick="numberfun(this)" >+/-</button>
+          <button type="button" onclick="calculatefun()" >=</button>
+        </div>
+
+
+  </div>
+
+<script src="newTab.js"></script>
+</body>
+</html>
